@@ -1,1 +1,69 @@
 #code preview
+#print the value int
+a=int(input())
+print(a)
+____________________________________________
+#print the string separate by space
+a=input()
+print(a)
+____________________________________________
+#print 
+n,k=[int(x) for x in input().split()]
+print(n,end=" ")
+print(k)
+for i in range(1,n+1):
+    print(i,end=" ")
+____________________________________________
+#print the input format as it is
+n,b=[int(x) for x in input().split()]
+l,c=[int(x) for x in input().split()]
+m,d=[int(x) for x in input().split()]
+print(n,end=" ")
+print(b)
+print(l,end=" ")
+print(c)
+print(m,end=" ")
+print(d)
+____________________________________________
+#print the int separate by space
+a=int(input())
+b=int(input())
+c=int(input())
+print(a,b,c)
+____________________________________________
+#print the input format as it 
+n,b=[int(x) for x in input().split()]
+l,c,y=[int(x) for x in input().split()]
+m,d,z=[int(x) for x in input().split()]
+print(n,end=" ")
+print(b)
+print(l,end=" ")
+print(c,end=" ")
+print(y)
+print(m,end=" ")
+print(d,end=' ')
+print(z)
+____________________________________________
+#print the string seperate by space
+a=input()
+s=" "
+s=s.join(a)
+print(s)
+____________________________________________
+#print the float value in separate line
+l,c,y=[float(x) for x in input().split()]
+print(l)
+print(c)
+print(y)
+____________________________________________
+#print the string in seperate line
+a=input()
+for i in a:
+    print(i)
+____________________________________________
+#print the string separate by comma
+n=input()
+s=","
+s=s.join(n)
+print(s)
+____________________________________________
